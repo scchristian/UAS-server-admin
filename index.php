@@ -10,4 +10,6 @@ $result = $link -> query("SELECT * FROM user");
 foreach ($result as $asd){
 	echo $asd["ID"].$asd["Nama"].$asd["Kantor"];
 }
+
+echo $result -> num_rows
 ?>
